@@ -2,7 +2,8 @@
   var root = document.documentElement;
   var button = document.querySelector('.theme-toggle');
   if (document.body.classList.contains('home')) {
-    var hue = Math.floor(Math.random() * 360);
+    // Reserve warm hues and greens for the widget product pages.
+    var hue = 190 + Math.floor(Math.random() * 71);
     root.style.setProperty('--home-hue', hue);
   }
   function update() {

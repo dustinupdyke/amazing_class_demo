@@ -80,11 +80,11 @@ body.green-widget footer span { color: #a2c4ad; }
 :root[data-theme="light"] body.green-widget footer span { color: #3e654a; }
 :root[data-theme="light"] body.green-widget :is(a, summary, button):focus-visible { outline-color: #193b26; }
 /* Red widget palette. */
-body.red-widget { background: #281211; color: #fff3f0; }
-body.red-widget .hero { background: radial-gradient(ellipse at 76% 42%, #ca8e83 0%, #824a45 26%, #4e2825 55%, #281211 100%); }
-body.red-widget .menu div { background: #391c19; }
-body.red-widget footer { background: #1d0d0c; }
-body.red-widget footer span { color: #d1a49c; }
+body.red-widget { background: #300710; color: #fff2f5; }
+body.red-widget .hero { background: radial-gradient(ellipse at 76% 42%, #e83b58 0%, #c41e3a 26%, #850f26 55%, #300710 100%); }
+body.red-widget .menu div { background: #490b19; }
+body.red-widget footer { background: #25050c; }
+body.red-widget footer span { color: #eca5b2; }
 :root[data-theme="light"] body.red-widget { background: #f5e0db; color: #48211d; }
 :root[data-theme="light"] body.red-widget .hero { background: radial-gradient(ellipse at 76% 42%, #fcebe5 0%, #efc9bf 30%, #dda398 65%, #bf7e72 100%); }
 :root[data-theme="light"] body.red-widget .hero::after { border-color: #6b302933; }
