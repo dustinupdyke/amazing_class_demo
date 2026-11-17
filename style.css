@@ -93,3 +93,7 @@ body.red-widget footer span { color: #eca5b2; }
 :root[data-theme="light"] body.red-widget footer { background: #ebc9c1; }
 :root[data-theme="light"] body.red-widget footer span { color: #7a453c; }
 :root[data-theme="light"] body.red-widget :is(a, summary, button):focus-visible { outline-color: #48211d; }
+
+.location { padding-top: 0; }
+.location address { font-style: normal; margin-bottom: 24px; }
+.location-map { display: block; width: 100%; height: clamp(300px, 50vw, 450px); border: 0; border-radius: 12px; background: #dceef7; }
